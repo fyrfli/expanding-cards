@@ -6,4 +6,4 @@ Enjoy!
 
 ---
 
-Next up: Redesigning it on my own to be responsive.
+Next up: Redesigning it on my own to be responsive since that was not a requirement for completion of the project.
