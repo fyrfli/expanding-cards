@@ -13,7 +13,7 @@ body {
 h1 {
     text-align: center;
     font-size: 40px;
-    margin-top: 1rem;
+    margin-top: 4px;
     text-decoration: dotted underline;
     text-underline-offset: 8px;
 }
@@ -21,9 +21,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
-    margin: auto;
 }
 .container {
     display: flex;
@@ -68,6 +67,14 @@ main {
 .panel.active h2 {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px dotted black;
+    width: 65%;
+    margin: 10px auto;
 }
 
 @media (max-width: 480px) {

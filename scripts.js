@@ -1,4 +1,6 @@
 // feather.replace()
+const nowYr = new Date();
+document.getElementById("jsyear").innerHTML = nowYr.getFullYear();
 
 const panels = document.querySelectorAll('.panel')
 
